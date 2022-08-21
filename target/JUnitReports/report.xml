@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="29.863">
+<testcase classname="Ingreso como empresario" name="Ingreso a la web como empresario" time="29.629">
+<failure message="Unable to find element with locator By.xpath: //*[@id=&quot;__layout&quot;]/div/div/main/div/div/div/section/div/div[2]/a[1]&#10;For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element&#10;Build info: version: '4.3.0', revision: 'a4995e2c09*'&#10;System info: host: 'LAPTOP-L200GJG2', ip: '192.168.0.19', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'&#10;Driver info: driver.version: RemoteWebDriver" type="org.openqa.selenium.NoSuchElementException"><![CDATA[Dado realizar click en login "cramos+tstemp08@prestamype.com" y "781783cerhC".passed
+Cuando ingreso a la seccion de factoring a vender facturas..................failed
+Entonces me solicitan completar mis datos de perfil.........................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: Unable to find element with locator By.xpath: //*[@id="__layout"]/div/div/main/div/div/div/section/div/div[2]/a[1]
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'LAPTOP-L200GJG2', ip: '192.168.0.19', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:387)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:379)
+	at StepDefinition.empresario.ingreso_a_la_seccion_de_factoring_a_vender_facturas(empresario.java:51)
+	at ✽.ingreso a la seccion de factoring a vender facturas(file:///C:/Users/cerh2/IdeaProjects/pretsmype-testing/src/test/resources/feature/empresario.feature:6)
+]]></failure>
+</testcase>
+</testsuite>
